@@ -1,0 +1,18 @@
+{
+  "name": "tienda-api",
+  "version": "1.0.0",
+  "description": "API REST para la gestión de productos de una tienda",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["api", "express", "postgresql", "crud"],
+  "author": "Paola Nuñez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
